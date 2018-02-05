@@ -7,6 +7,8 @@ https://devhints.io/
 https://www.datacamp.com/community/tutorials/matplotlib-tutorial-python
 
 ## Unix one line
-### install bundle
+### install package via bundle
+```
 chmod a+x xxx.bundle
 sudo ./xxx.bundle
+```
