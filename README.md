@@ -18,15 +18,12 @@ sudo ./xxx.bundle
 ```
 ## Unix softwares
 ### sogou pinyin
-1. remove 'fcitx' which conficts with 'sogo'
 ```shell
-sudo apt remove fcitx*
-sudo apt autoremove
+sudo apt install libopencc1 fcitx-libs fcitx-libs-qt fonts-droid-fallback  
+sudo dpkg -i sogoupinyin_xxxx.deb  
 ```
-2. download from
-http://pinyin.sogou.com/linux/?r=pinyin
-3. install sogoupinyin
+deb can be downloaded here https://pinyin.sogou.com/linux/?r=pinyin.
+If error occurs, removing installed 'sogou' (via command below) and resintalling 'fcitx' and 'sogou' (run the commands above ageain) should solve the problem.
 ```shell
-sudo dpkg -i sogoupinyin*.deb
-sudo apt -f install
+sudo apt remove sogoupinyin  
 ```
