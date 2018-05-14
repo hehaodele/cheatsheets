@@ -27,3 +27,8 @@ If error occurs, removing installed 'sogou' (via command below) and resintalling
 ```shell
 sudo apt remove sogoupinyin  
 ```
+### latex
+```shell
+sudo apt-get install texlive-full  
+sudo apt-get install texmaker
+```
