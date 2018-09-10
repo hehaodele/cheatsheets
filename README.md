@@ -1,5 +1,16 @@
 # cheatsheets
 
+## ssh without password
+generate private/public key for my host
+```shell
+ssh-keygen -t rsa
+```
+copy the public key to the remote host
+```
+a@A:~> ssh-copy-id b@B
+b@B's password: 
+```
+
 ## cheat sheets websites
 https://devhints.io/
 
