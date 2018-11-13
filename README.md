@@ -1,5 +1,24 @@
 # cheatsheets
 
+## Ubuntu themes
+```shell
+sudo apt-get update
+sudo apt-get upgrade
+```
+```shell
+sudo apt-get install unity-tweak-tool
+```
+```shell
+sudo add-apt-repository ppa:noobslab/themes
+sudo apt-get update
+sudo apt-get install flatabulous-theme
+```
+```shell
+sudo add-apt-repository ppa:noobslab/icons
+sudo apt-get update
+sudo apt-get install ultra-flat-icons
+```
+
 ## ssh without password
 generate private/public key for my host
 ```shell
