@@ -1,5 +1,8 @@
 # cheatsheets
 
+## Ubuntu no sound issue
+https://blog.csdn.net/longyinyushi/article/details/50612586
+
 ## Ubuntu themes
 ```shell
 sudo apt-get update
