@@ -1,5 +1,12 @@
 # cheatsheets
 
+## Ubuntu install cuda-10.0
+https://developer.nvidia.com/cuda-10.0-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=runfilelocal
+```
+sudo sh sudo sh cuda_10.0.130_410.48_linux.run
+sudo sh sudo sh cuda_10.0.130.1_linux.run
+```
+
 ## Ubuntu install NVIDIA driver
 https://blog.csdn.net/wf19930209/article/details/81877822
 
