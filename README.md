@@ -1,5 +1,41 @@
 # cheatsheets
 
+## Ubuntu install NVIDIA driver
+https://blog.csdn.net/wf19930209/article/details/81877822
+
+1. delete old driver
+```
+sudo apt-get remove –purge nvidia*
+```
+
+2. check nouveau is disabled. (No print is good)
+```
+lsmod | grep nouveau
+```
+If nouveau is not disabled, do following
+```
+sudo gedit /etc/modprobe.d/blacklist.conf
+```
+add "blacklist nouveau" to the conf file. 
+
+3. reboot
+4. Ctrl+Alt+1 go to tty1
+5. stop lightdm
+```
+sudo service lightdm stop
+```
+
+6. install driver
+```
+sudo chmod a+x NVIDIA-Linux-x86_64-430.50.run
+sudo sh ./NVIDIA-Linux-x86_64-390.48.run --no-opengl-files
+```
+
+7.reboot
+```
+reboot
+```
+
 ## Ubuntu no sound issue
 https://blog.csdn.net/longyinyushi/article/details/50612586
 
